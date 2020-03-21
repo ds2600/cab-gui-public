@@ -1,0 +1,28 @@
+Version 1.0 Beta
+===============================
+- All features currently only support a DCM-9902
+- Ability to add a device to the Ctrl-AutoBk database
+- Ability to test SSH and Authentication to the device
+- Ability to manually backup a device
+- Ability to schedule an automatic or manual backup for a device
+- Ability to download the latest known backup of a device
+- Log user activity to a visible logfile
+
+Goals for 1.0 Gold:
+===============================
+- Correct direct file system pointers to config file
+- Correct SQL closing statements
+- Bug fixes as reported
+
+Upcoming Features:
+===============================
+- Modular device components
+- CAP-1000 module
+- Authentication to RADIUS and/or LDAP
+
+Ongoing Activities/Long Term:
+===============================
+- Code clean up
+- Migrate as many scripts as possible from PHP to Python (possibly)
+- Remove unnecessary CSS/JS/HTML
+- Separation of GUI and Ctrl-AutoBk server
