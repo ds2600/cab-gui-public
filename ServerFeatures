@@ -4,10 +4,11 @@ Current ==========
 - SystemD
 -- Allows service to be stopped and started using 'sudo system ctrlautobk start/stop'
 -- Requires symbolic link from /usr/bin/ctrlautobk-py to python3.8 executable
-Coming Soon ==========
 - MySQL Backup
--- Does NOT provide replication, only pushes a dump of MySQL DB to cloud storage, not vital to retrieve backups if necessary
+-- Does NOT provide replication, only pushes a dump of MySQL DB to AzBackups folder weekly at 5am before push to Azure.
+Coming Soon ==========
 - SSL
 -- This will either be done via LetsEncrypt if we get video side DNS set up, or via local CA if we have to keep the IP only
 - Maintenance Script
 -- Not sure what all this will entail, but plan on running it before other periodic server maintenances, primarily to allow for server reboot to clear RAM
+
